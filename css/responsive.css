@@ -1,0 +1,26 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+    .coloumn{width:950px}	
+    .single_portfolio .project_detail{left: -16px}
+    .portfolio_list {margin-left: 165px;}
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+    .coloumn{width:750px}
+    .portfolio_list .single_portfolio {width: 201px;}
+    .portfolio_list {margin-left: 85px;}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .coloumn{width:300px}
+   
+    .portfolio_list .single_portfolio {width: 159px;}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.coloumn{width:450px}
+ 
+}

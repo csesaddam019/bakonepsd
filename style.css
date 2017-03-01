@@ -1,0 +1,349 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+
+
+
+a:hover{text-decoration: none;}
+img{max-width: 100%}
+alignleft{float: left;margin-right: 15px}
+alignright{float: right;margin-left: 15px}
+aligncenter{float: none;margin: 0 auto}
+body{max-width: 100%;font-family: 'Lato', sans-serif;}
+
+.header_area{max-width: 100%;height: 100px;background: #fff;}
+.header_area .logo {
+	float: left;
+	padding: 24px 0px;
+	/* margin: -2px; */
+	margin-left: -63px;
+}
+.header_area .header_text h2 {
+	/* padding: ; */
+	padding-top: 26px;
+	margin: 0;
+    font-family:'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase
+}
+.header_area .header_text p{}
+.main_menu{margin-top: 29px;}
+.main_menu ul#nav{list-style: none;
+   
+}
+
+.main_menu ul#nav li {
+	float: left;
+	/* padding: 10px; */
+	/* background: red; */
+	padding: 1px;
+    font-family:'Lato', sans-serif;
+}
+.main_menu ul#nav li a {
+text-transform: uppercase;
+	padding: 10px;
+    color: #444444;
+    font-family:'Lato', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+	/* border: 1px solid aliceblue; */
+}
+.main_menu ul#nav li a:hover {
+    background: #1BBC9B;
+    color: #fff;
+}
+.portfolio_area{padding: 50px 0}
+
+.portfolio_header{}    
+.portfolio_header h3{
+    color: #444444;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+}    
+.portfolio_header p{
+     color: #444444;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+}    
+
+.featured_portfolio{padding: 20px;}
+.featured_portfolio ul.port_menu{text-align: center}
+.featured_portfolio ul.port_menu li {
+    letter-spacing: 2px;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 13px;
+	background: #1BBC9B;
+	margin: 6px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.portfolio_list{margin-left: 110px}
+.portfolio_list .single_portfolio {
+	/* display: inline-block; */
+	padding: 15px 14px;
+	width: 225px;
+	float: left;
+	/* margin-left: 7px; */
+	position: relative;
+}
+.portfolio_list .single_portfolio img{}
+
+.single_portfolio .project_detail{position: absolute;
+ height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: none;
+}
+
+.single_portfolio .project_detail a {
+	background: #535353;
+	/* padding: 9px; */
+	border-radius: 26px;
+	/* border: 1px solid red; */
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	padding-top: 2px;
+	font-size: 16px;
+	color: #fff;
+	font-size: 23px;
+	margin-left: -18px;
+	margin-top: 52px;
+	opacity: 0.6;
+}
+.single_portfolio .project_detail .hover_p {
+	/* margin: ; */
+	margin-top: 104px;
+	font-size: 18px;
+	color: #fff;
+}
+
+
+.single_portfolio .project_detail i {
+	margin-top: 60px;
+	position: absolute;
+	margin-left: -7px;
+	font-size: 23px;
+	color: #fff;
+    cursor: pointer;
+}
+
+.single_portfolio:hover .project_detail{display: block}
+
+.about_area .about_head {
+	text-align: center;
+	padding-bottom: 33px;
+	color: #fff;
+    
+} 
+.about_area .about_head h2{font-size: 28px;} 
+.about_area .about_head p{} 
+
+.about_area{padding: 40px;background: #1BBC9B}
+.person_area{margin-left: 140px;}
+.person_area .single_person {
+	float: left;
+	width: 287px;
+    text-align: center;
+    position: relative;
+    
+	/* padding: 38px; */
+	/* padding-left: 59px; */
+	/* margin-left: 39px; */
+}
+
+.person_area .single_person h2{font-size: 18px;letter-spacing: 1px;margin-bottom: 0;
+    width: 221px;background: #fff;margin-left: 33px;padding-top: 10px;
+}
+.person_area .single_person p{width: 221px;margin-left: 33px;background: #fff;font-style: italic}
+
+.person_area .single_person p.bottom_p {
+    font-style: normal;
+	margin-top: -10px;
+	/* padding: 5px; */
+	padding: 14px 18px;
+	text-align: left;
+	/* padding: ; */
+	/* padding-left: 7px; */
+}
+
+.single_person .social_profile {
+	position: absolute;
+	color: #fff;
+	font-size: 30px;
+	/* padding: 15px; */
+	top: 101px;
+	left: 69px;
+    display: none;
+    
+}
+.single_person .social_overlay {
+	position: absolute;
+	background: #1BBC9B;
+	height: 41px;
+	width: 164px;
+	left: 63px;
+	top: 103px;
+    opacity: 0.6;
+    display: none;
+}
+.single_person .social_profile i{padding: 3px;color: #fff;cursor: pointer}
+.single_person .social_profile a{}
+
+.person_area .single_person:hover .social_profile{display: block}
+.person_area .single_person:hover .social_overlay{display: block}
+
+.contact_area{padding: 40px 0;background: #ECF0F1}
+.contact_area .contact_header{text-align: center}
+.contact_area .contact_header h2{font-size: 28px;color: #444444}
+.contact_area .contact_header p{color: #444444}
+
+.contact_menu .contact_list{height: 100px;width: 100px;float: left;background: red;}
+.contact_menu .info_list{height: 100px;width: 100px;background: blue;
+}
+.contact_list form input {
+	margin: 10px;
+	padding: 13px;
+	border: 2px solid #BEC3C7;
+	border-radius: 0;
+	width: 249px;
+}
+.contact_list form textarea {
+	/* padding: 9px; */
+	margin-left: 8px;
+	margin-top: 11px;
+	border: 2px solid #BEC3C7;
+	/* padding-top: 10px; */
+	/* padding: 10px; */
+	padding-top: 12px;
+	padding-left: 10px;
+}
+.contact_list form input[type="submit"] {
+	float: right;
+	width: 125px;
+	border: none;
+	background: #1BBC9B;
+	/* padding: 0; */
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 10px;
+	font-weight: 700;
+	font-size: 13px;
+	color: #fff;
+	margin-right: 25px;
+        margin-top: 20px;
+}
+.info_list .total_info p,spa{margin: 0;padding: 3px;letter-spacing: 1px}
+
+.footer_area{padding: 40px 0;background: #2D3E50;color: #fff}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
